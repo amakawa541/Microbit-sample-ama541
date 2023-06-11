@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="j}maIT:#g=DHi)d{!E39" x="-10" y="-604"><statement name="HANDLER"><block type="device_print_message" id="/e`9Q@Bh]Jr=v(ISlseI"><value name="text"><shadow type="text" id="4/b(}ab}^!JcT@3!6-v@"><field name="TEXT">Hello!</field></shadow></value></block></statement></block><block type="device_forever" id="7aS)d=;vxlwJfZ2:}d;S" x="3" y="-419"><statement name="HANDLER"><block type="device_show_number" id="FUt$1$vm{y75;Z@[=W9*"><value name="number"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="2d@4E-v;Do6xzBQ5V^/Q"></block></value></block></statement></block><block type="controls_if" id="NIa2|03JY=UR[jK`%#;d" disabled="true" x="220" y="-354"><value name="IF0"><shadow type="logic_boolean" id="Kb?0tOf~$|0Ol:3p/fP^" disabled="true"><field name="BOOL">TRUE</field></shadow></value><statement name="DO0"><block type="device_show_leds" id="=Dd]PD~$v88!]H){[s53" disabled="true"><field name="LEDS">`
+        . # # . . 
+        . # . . # 
+        . # # # # 
+        . # . # # 
+        . . . . .
+        `</field></block></statement></block><block type="device_button_event" id="dsN:-eMyK,jwJD^Nql;y" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="]cd@y`@LdD,{ukpEyiGK"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # . . . # 
+        # # # # # 
+        # . . . #
+        `</field></block></statement></block><block type="device_button_event" id=".iab~ZP0Z4Vv%|9H2;w/" x="-3" y="379"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_play_note" id="}[wFf_/!DmVOU@:hpR7|"><value name="note"><shadow type="device_note" id="+]*SzaUcOX/UH7Z*xD46"><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="aDSWAr79q73~8S4H%oj/"><field name="fraction">BeatFraction.Whole</field></shadow></value></block></statement></block><block type="device_button_event" id="hEx}5b5k!fx3=0]}XsYC" x="6" y="545"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_print_message" id="jk~:[X2#1.taKZ7$^0y-"><value name="text"><shadow type="text" id="/x)QK_EE8if1ARX!O^l4"><field name="TEXT">a b</field></shadow></value></block></statement></block></xml>
